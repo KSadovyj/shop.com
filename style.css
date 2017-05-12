@@ -1,0 +1,114 @@
+body{
+	
+}
+
+header{
+	height: 250px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -5px;
+}
+
+header .head{
+	height: 250px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff3d1;
+}
+
+main{
+	align-content: center;
+	height: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+
+main aside{
+	float: left;
+	width: 20%;
+	height: 1125px;
+	background-color: #fff3d1;
+	clear: both;
+}
+
+aside .aside-inner{
+	width: 90%;
+	height: 90%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #fff3d1;
+}
+
+aside p{
+	font-size: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: fantasy;
+	color: #efe481;
+	background-color: #f46bf0;
+}
+
+.aside-inner a{
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	background-color: #97efec;
+	text-align: center;
+}
+
+.aside-inner a:hover{
+	background-color: #f46bf0;
+}
+
+main .space{
+	float: left;
+	width: 5%;
+	height: 500px;
+}
+
+main content{
+	float: left;
+	width: 75%;
+	height: 1000px;
+	background-color: #fff3d1;
+}
+
+content .tabes ul{
+	padding-left: 0px;
+	margin: 0 auto;
+}
+
+.tabes li{
+	float: left;
+	height: 40px;
+	width: 20%;
+	display: block;
+}
+
+.tabes li a{
+	display:block;
+	text-align: center;
+	padding:15px; /*Объем вокруг блоков*/
+	background:rgba(201, 215, 232, 0.75); /* Выглядит полупрозрачным */	
+	background-color: #97efec;
+	text-decoration:none;
+	color: #1a2128;
+	font-weight: bold;
+	font: cursive;
+}
+
+.tabes li a:hover{
+	background-color: #f46bf0;
+}
+
+.index_maintcontent{
+	
+}
